@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+          <span class="logo"> ToDo List Web </span>
+          <div class="options">
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">Report</a>
+              </li>
+              <li>
+                <a href="#">Sign in</a>
+              </li>
+            </ul>
+          </div>
+          <span class="menu">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </div>
+      </header>
+      <main id="main">
+        <div class="container">
+          <form id="form-submit">
+            <input type="text" class="input" placeholder="Enter Here" />
+            <button type="submit" class="button">Add</button>
+          </form>
+          <h3>TodoList</h3>
+          <div class="todolist-container"></div>
+        </div>
+      </main>
+  
+      <div class="button-toggle">
+        <span id="light" class="light">
+          <i class="fa-solid fa-lightbulb"></i>
+        </span>
+        <span id="dark" class="dark">
+          <i class="fa-solid fa-moon"></i>
+        </span>
+      </div>
+  
+    <script src="./app.js"></script>
+</body>
+</html>
